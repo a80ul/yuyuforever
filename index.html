@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Our Story - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Outfit:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="bgMusic" loop src="assets/music/heart.mp3"></audio>
+
+    <nav class="navbar">
+        <div class="logo">OUR STORY</div>
+
+    <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="/Memories/Memo.html" class="nav-link">MEMORIES</a></li>
+            <li><a href="/Dokumentasi/docum.html" class="nav-link">DOKUMENTASI</a></li>
+            <li><a href="/bonus/flower.html" class="nav-link">BONUS</a></li>
+        </ul>
+    </nav>
+
+<main>
+<section class="hero-physics">
+        <div class="hero-content">
+            <h1>Kenangan Kita</h1>
+            <p>Kumpulan memori kecil yang menjadi alasan besar kenapa dudul selalu bersyukur memiliki yuyu.</p>
+        </div>
+
+        <div id="physics-container"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
+        <section class="stats-section reveal">
+            <div class="stat-box">
+                <h2 class="stat-number" id="days-counter">0+</h2>
+                <p>Hari Penuh Warna</p>
+            </div>
+            <div class="stat-box">
+                <h2 class="stat-number">10000</h2>
+                <p>Tawa & Kebahagiaan</p>
+            </div>
+            <div class="stat-box">
+                <h2 class="stat-number">&infin;</h2>
+                <p>Harapan & Doa</p>
+            </div>
+        </section>
+
+        <section class="love-letter reveal">
+            <div class="letter-container">
+                <span class="letter-tag">Jika Terlahir</span>
+                <h2>SEKALI LAGI, TETAP YUYU.</h2>
+                <p>dudul kepikiran, kalo semesta ini luas banget dan ada jutaan kemungkinan, di antara ketidaksengajaan.
+                    dudul merasa, ketemu yuyu itu satu satunya hal paling masuk akal didalam hidup dudul.</p>
+
+                <p>
+                    makanya, kalaupun nanti waktu harus diulang lagi, atau misal dudul dikasih kesempatan buat lahir dikehidupan
+                    yang berbeda, dudul nda akan binggung nyari siapa-siapa. dudul bakal tetap lari ke arah yang sama, nyari rumah
+                    yang sama, dan tajuh cinta kepada orang yang sama.
+                </p><br>
+
+                <p>
+                    karena buat dudul, nda ada deifinis bahagia yang bener bener nyata kalo didalamnya nda ada yuyu.
+                </p>
+                    
+                <p class="letter-sub">...mau kehidupan sekarang, nanti dan kapanpun itu... <br>
+                    dudul akan tetap memilih yuyu selamanya</p>
+
+
+                
+            </div>
+        </section>
+
+        <section class="about reveal">
+            <div class="about-text">
+                <h2>CINTA YANG TERJAGA & <br> TERUS BERTUMBUH</h2>
+                <p>Beberapa hal dalam hidup ini butuh waktu lama untuk dimengerti, tapi mencintai yuyu adalah hal paling instan yang pernah dudul rasakan. Bersama yuyu, hal sederhana terasa luar biasa.</p>
+                <div class="lihat-kenangan">
+                    <button class="btn-primary" onclick="window.location.href='/Memories/Memo.html'">Lihat Semua Kenangan</button>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="card-container" id="yuyu-moments-card">
+                    <div class="card-inner">
+                        
+                        <div class="card-side card-front">
+                            <div class="polaroid-frame">
+                                <img src="" alt="Momen Depan" class="polaroid-img" id="img-front">
+                                </div>
+                        </div>
+
+                        <div class="card-side card-back">
+                            <div class="polaroid-frame">
+                                <img src="" alt="Momen Belakang" class="polaroid-img" id="img-back">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="little-things reveal">
+            <div class="section-title">
+                <h2>LITTLE THINGS I LOVE ABOUT YOU</h2>
+                <p>Hal-hal kecik yang yuyu anggap biasaaa, tapi bikin dudul kegemeeesann</p>
+            </div>
+            <div class="things-grid">
+                <div class="thing-card">
+                    <span>01</span>
+                    <h3>Yuyu Tidur</h3>
+                    <p>susah banget disuruh tidur kalo udah malam yuyu tuh klo nda ditegur bisa begadang, tapi sekalinya tidur nyenyak banget mulutnya sampai kebuka sendiri
+                        atau klo lagi kecapean bisa sampe ngorok, ntah gimna dudul merasa tenang ketika yuyu tidurnya nyenyak.</p>
+                    <img src="https://media.giphy.com/media/rODSlgXDNUEhUvpwns/giphy.gif" class="card-sticker" alt="cute-cat">
+                </div>
+                <div class="thing-card">
+                    <span>02</span>
+                    <h3>Yuyu Laper/Haus</h3>
+                    <p>kalo marah marah dudul paling suka belikan yuyu makanan atau minuman, hehe soalnya dudul pasti tau itu pasti karena perut yuyu lagi laper
+                        atau yuyunya lagi kehausan karena cuaca panas, tapi kayanya lebih enak klo cuaca panas itu dudul belikan eskwimmm
+                    </p>
+                    <img src="https://media.giphy.com/media/32iQogJ9BdzNCxqhcL/giphy.gif"class="card-sticker" alt="mad-cat">
+
+                </div>
+                <div class="thing-card">
+                    <span>03</span>
+                    <h3>Rajanya Pedas</h3>
+                    <p>yuyu tuh setiap makan apa aja ga bisa gada pedes, pasti minimal ada sambelnya hahaha, susah banget ditegurr yuyu tuh
+                        "gada yang bisa melarang yuyu" ini kata kata yang selalu diucapin yuyu ketika dudul ngelarang yuyu.</p>
+                    <img src="https://media.giphy.com/media/RzHke0Rpw6qNhzi0TQ/giphy.gif"class="card-sticker" alt="mad-cat">
+                </div>
+                <div class="thing-card">
+                    <span>04</span>
+                    <h3>Yuyu dan Suami's Kpop</h3>
+                    <p>kdng dudul ngeliat yuyu tuh suka ngehalu punya suami atau pacar artis korea sampai beli bendera pake wajah suami-suaminya hahaha, tapi gapapa
+                        deh dudul jadi cadangan dulu, yang penting didunia nyata yuyu tetap pulangnya kepelukannn dudul.
+                    </p>
+                    <img src="https://media.giphy.com/media/uxtBKBICo36yd3eMMT/giphy.gif" class="card-sticker" alt="mad-cat">
+                </div>
+               <div class="thing-card">
+                    <span>05</span>
+                    <h3>Yuyu Paw Paw</h3>
+                    <p>paling nda bisa liat kucing nyantai yuyu twuhh pasti langsng ganggunya. contohnya icit bobo siang digangguw yuyuw
+                    </p>
+                    <img src="https://media.giphy.com/media/cWsY3Cj8fUrzMrylEk/giphy.gif" class="card-sticker" alt="mad-cat">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="quote-section">
+             <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3dydThkbDRkbWlma3hsbXV4NndtbTdsbTFkN2xjMGdlMmFhdW1qdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5H0x0OBwn1XqthJy2c/giphy.gif" class="jemput-stiker" alt="dudul-jemput-yuyu">
+            <div class="quote-content">
+                <p>jemput yuyu pagi-pagi buat berangkat kerja bareng, terus sorenya pulang bareng lagi <br> itu momen yang paling dudul tunggu setiap hari.</p>
+            </div>
+        </section>
+
+        <section class="promises reveal">
+            <div class="promises-content">
+                <h2>A LOVE LETTER WITHOUT END</h2>
+                <ul>
+                    <li>dudul ndaa bakalan biarin yuyu ngerasa kesepian sendirian lagi. dudul akan selalu ada dihari harinya yuyu!</li>
+                    <li>dudul akan menjadikan alasan yuyu buat bertahan didunia ini, bersama dudul</li>
+                    <li>dudul mencintai yuyu seumurr hidup dudul, dan jika waktu akan berputar kembali, tetap akan mencintai yuyu. SELAMANYA</li>
+                    <li>dudul mau jadi orang pertama yang yuyu cari pas lagi seneng atau sedih</li>
+                    <li>nda akan ada rasa bosan, malahan duddullnya makin hari makin sayang sama yuyu</li>
+                    <li>semua kucingg yang yuyu sayang, bakal dududul sayang juga karena itu bagian dari yuyu</li>
+                    <li>dudul mau jadi alasan yuyu kenapa jadi wanita paling beruntung didunia ini, dunia dudul, dan dunia kucingg jugaak</li>
+                    <li>bahagia yuyu adalah prioritas dudul</li>
+                    <li>yuyu adalah wanita terhebat dudul setelah mama dudul</li>
+                    <li>yuyu adalah kebahagiaannya dudul, hal yang paling sederhana yang dudul syukuri disetiap harinya dudul dan disetiap nafasnya dudul</li>
+                    <li>yuyu itu cahaayaa terindah dihidup dudul</li>
+                    <li>dudul mau jadi tempat yuyu bersandar jika dunia ini terlalu berat buat yuyu</li>
+                    <li>dudul akan selaluuu sabar untuk menghadapi seua mood yuyu yang berubah ubah, karena dudul sayang yuyu</li>
+                    <li>dudul akan selalu sisihkan banyakkk waktu untuk menghabiskan waktunya bersama yuyu</li>
+                    <li>dudul mau jadi pasangan yang bisa diandalkan yuyu</li>
+                    <li>nda akan ada bosan bosannya dudul bilang "dudul sayang yuyu" bahkan sampai tua nanti.</li>
+                    <li>jgn pernah merasa diri yuyu itu beban dudul, justru kehadiran yuuyu itu adalah rasa syukurnya dudul</li>
+                    <li>yyuyu adalah alasan dudul kenapa dudul pengen punya masa depan bersama yuyu</li>
+                    <li>dudul mau banyak uangnya biar bisa jajanin makanann kesukaan yuyu sepelti kewipik pedesss</li>
+                    <li>dudul menyayangi yuyu sepanjang masa</li>
+                    <li>dudul akan tetap ada disamping yuyu</li>
+                    <li>duudl mau kita tetap bareng terus selamanya, lucu selamanya, menggemaskan selamanya</li>
+                    <li>dudul mau tinggal dibelakang gigi yuyu</li>
+                    <li>yuyu adalah energi duudul, makin yuyu bahagiaa makin semnagat dudul menjalani hari hari, maka dari itu dududl gamau bikin yuyu bersedih dan kecewa</li>
+                    <li>yuyu adalah alasan dudul berani bermimpiii setinggi2nya dan mencapai mimpi2 itu</li>
+                    <li>dan sekali lagiii dudul sayanggggg banget sama yuyuu</li>
+                    <li>dudul mau bikin yuyu bahagia teruss</li>
+                    <li>akan dudul habiskan semua waktu dudul hanya bbersama yuyu.</li>
+                    <li>Hiduplah terus, ada terus seperti tokoh kartun di televisi itu</li>
+                    <li>"Tubuh kita menguap menjadi bulir hujan yang diharapkan
+                        Setelah musim kemarau yang sangat panjang
+                        Serupa berkat deras jatuh deras jatuh ke bumi
+                        Menyirami bunga bunga indah"</li>
+                    <li>"Menetaplah lebih lama
+                    Dari matahari
+                    Akan kekal semua bahagia
+                    Dalam rangkum adanya rupamu"</li>
+                    <li>"Ikat aku di tulang belikatmu
+                    Biar kurebah dan teduh
+                    Sambil dengar ceritamu ceritaku
+                    Tentang bagaimana kutemukan
+                    Rasi bintang di matamu"</li>
+                    <li>maafkan dudul..</li>
+                    <li>kalo apa yang dudul tuliskan disni</li>
+                    <li>ga ada puitis puitis2nya dan romantisnya kurang, tapi ini murni dari dudul yang membuatkan untuk yuyu,
+                        semaksimal mungkin dudul tuangkan semua emosional romantis dudul untuk yuyu</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="playlist-section reveal">
+            <div class="playlist-info">
+                <h3>Lagu Kita - Cerita Kita</h3>
+                <p>nda tau kenapa dudul klo setiap denger lagu2 ini tuh keingat yuuyu heheh</p>
+            </div>
+
+            <div class="playlist-content-wrapper">
+                
+                <div class="vinyl-player">
+                    <div class="vinyl-disc" id="mainVinyl">
+                        <div class="album-cover">
+                            <img src="assets/covers/default.jpg" id="currentCover" alt="Cover">
+                        </div>
+                        <div class="vinyl-hole"></div>
+                    </div>
+                    
+                    <div class="player-controls">
+                        <h4 id="currentTitle">Pilih Lagu Buat Yuyu</h4>
+                        <p id="currentArtist">Dudul & Yuyu</p>
+                        
+                        <div class="timeline-box">
+                            <span id="timeStart">0:00</span>
+                            <div class="progress-bar" id="progressContainer">
+                                <div class="progress-fill" id="progressBar"></div>
+                            </div>
+                            <span id="timeEnd">0:00</span>
+                        </div>
+
+                        <div class="btns">
+                            <button onclick="prevSong()"><i class="fas fa-step-backward"></i></button>
+                            <button class="play-btn" onclick="togglePlay()"><i class="fas fa-play" id="playIcon"></i></button>
+                            <button onclick="nextSong()"><i class="fas fa-step-forward"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="local-playlist" id="songList">
+                    <div class="song-item active">
+                        <div class="song-info">
+                            <h5>Loading Playlist...</h5>
+                            <p>Memasukkan cinta...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <audio id="mainAudio" src=""></audio>
+        </section>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <footer class="footer">
+            <div class="footer-typing">
+                <div class="typing-container">
+                    <h1 class="big-footer-text" id="typing-target"></h1>
+                </div>
+            </div>
+            
+            <div class="footer-actions">
+                <p class="final-note">Tewimaakasihh sudah jadi bagian terindah dalam hidupna duduwl</p>
+                 <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z2w2MHJ3OWp0OGJxc3dmZWc2cmY2ZXFwZDduMWsyZDFsanE3enl5bSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/8PPX8J5LDlzh1HQj0B/giphy.gif" class="footer-sticker" alt="mad-cat">
+                 
+        </footer>
+
+    </main>
+
+    <div class="scrolltopt" id="scrollToTop" onclick="goToTop()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
